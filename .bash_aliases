@@ -11,11 +11,6 @@
 # Dit zijn mijn bash shell aliases.
 # Gewijzigd op zo jan  3 04:52:10 CET 2021
 #
-# Colorize grep output (good for log files)
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
