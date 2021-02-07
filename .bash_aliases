@@ -9,7 +9,7 @@
 # github: http://www.github.com/ph17974
 #
 # Dit zijn mijn bash shell aliases.
-# Gewijzigd op zo jan  3 04:52:10 CET 2021
+# Gewijzigd op zo feb  7 20:59:06 CET 2021
 #
 # adding flags
 alias df='df -h'                          # human-readable sizes
@@ -59,10 +59,6 @@ alias fgrep='fgrep --color=auto'
 alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
-
-# adding flags
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
 
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
